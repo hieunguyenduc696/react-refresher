@@ -4,7 +4,7 @@ const Modal = (props) => {
       <h2>Are you sure?</h2>
       <div className="actions">
         <button className="btn btn--alt" onClick={props.onClick}>Cancel</button>
-        <button className="btn">Confirm</button>
+        <button className="btn" onClick={props.onConfirm}>Confirm</button>
       </div>
     </div>
   );
