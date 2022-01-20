@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0 auto;
+}
+
+.todo {
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: #5e00b8;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.card {
+  width: 700px;
+  height: 120px;
+  border: 1px solid #999;
+  box-shadow: whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.add-todo {
+  margin: 10px 0;
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #5e00b8;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #5e00b8;
+  border: 1px solid #5e00b8;
+}
+
+.todo-list {
+  width: 700px;
+  text-align: center;
+  margin: 30px auto 0;
+}
+
+.todo-item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
