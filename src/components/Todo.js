@@ -1,7 +1,7 @@
-const Todo = () => {
+const Todo = (props) => {
   return (
     <li className="todo-item">
-      <h2>Title</h2>
+      <h2>{props.text}</h2>
       <button className="btn">Delete</button>
     </li>
   );

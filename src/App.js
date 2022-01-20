@@ -8,7 +8,9 @@ function App() {
       <button className="btn">Add</button>
     </div>
     <ul className="todo-list">
-      <Todo />
+      <Todo text='Learn React' />
+      <Todo text='Master React' />
+      <Todo text='Explore the full React feature' />
     </ul>
   </div>;     
 }
