@@ -1,3 +1,5 @@
+import Todo from "./components/Todo";
+
 function App() {
   return <div className="todo">
     <header className="header">Todo App</header>
@@ -6,18 +8,7 @@ function App() {
       <button className="btn">Add</button>
     </div>
     <ul className="todo-list">
-      <li className="todo-item">
-        <h2>Title</h2>
-        <button className="btn">Delete</button>
-      </li>
-      <li className="todo-item">
-        <h2>Title</h2>
-        <button className="btn">Delete</button>
-      </li>
-      <li className="todo-item">
-        <h2>Title</h2>
-        <button className="btn">Delete</button>
-      </li>
+      <Todo />
     </ul>
   </div>;     
 }
